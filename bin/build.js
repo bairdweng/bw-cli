@@ -1,4 +1,3 @@
-const creator = require('../lib/creator')
 const fs = require('fs-extra')
 const program = require('commander')
 const path = require('path')
