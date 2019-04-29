@@ -1,10 +1,13 @@
 {
-  "name": "bw-cli",
+  "name": "bwbox-cli",
   "version": "1.0.0",
   "description": "前端脚手架工具",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bw": "./bin/build.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +16,7 @@
   "keywords": [
     "cli"
   ],
-  "author": "BairdWeng",
+  "author": "bairdweng",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bairdweng/bw-cli/issues"
